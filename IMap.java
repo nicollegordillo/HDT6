@@ -1,5 +1,7 @@
+import java.util.ArrayList;
+
 public interface IMap {
-    public void llenarMap();
+    public void llenarMap(ArrayList<String[]> inventario);
     public String agregar(String categoria, String producto);
     public String MostrarCategoria(String producto);
     public String MostrarProductos();
