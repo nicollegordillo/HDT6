@@ -105,12 +105,14 @@ public class linkedHashMap implements IMap{
                     for (Map.Entry<Integer, String> entrada : Coleccion.entrySet()) { 
                         if (!valoresVistos.contains(entrada.getValue())) {
                             int cantidad = conteos.get(entrada.getValue());
-                            if (categoria.equals(inventario.get(producto))) {
+                            if (categoria.equals(inventario.get(entrada.getValue()))) {
                                 mensaje+="\n "+entrada.getValue()+" x "+cantidad;
+                                valoresVistos.add(entrada.getValue());
                             }
-                            valoresVistos.add(entrada.getValue());
+                            
                         }    
                     }
+                    
                     mensaje+="\n---------------------------------"; 
                 }  
             }
