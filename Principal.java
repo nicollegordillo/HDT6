@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
         lectura l=new lectura();
@@ -17,6 +16,7 @@ public class Principal {
         Boolean continuar2=true;
         System.out.println("Bienvenido a la tienda en linea");
         while(continuar){
+            continuar2=true;
             System.out.println("1. Empezar a comprar \n2. Salir");
             op1= teclado.nextInt();
             teclado.nextLine();
