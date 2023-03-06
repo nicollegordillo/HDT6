@@ -2,7 +2,14 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-
+//
+//
+//  @ Project : HDT6
+//  @ File Name : lectura.java
+//  @ Date : 05/03/2023
+//  @ Author : Nicolle Gordillo  
+//
+//
 public class lectura {
     public ArrayList<String[]> leer(){
         String filename = "ListadoProducto (2).txt"; // nombre del archivo de entrada

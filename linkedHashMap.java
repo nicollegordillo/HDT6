@@ -3,7 +3,14 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
-
+//
+//
+//  @ Project : HDT6
+//  @ File Name : linkedHashMap.java
+//  @ Date : 05/03/2023
+//  @ Author : Nicolle Gordillo  
+//
+//
 public class linkedHashMap implements IMap{
 
     LinkedHashMap<String, String> inventario = new LinkedHashMap<String, String>();

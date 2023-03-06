@@ -1,5 +1,12 @@
 import java.util.Scanner;
-
+//
+//
+//  @ Project : HDT6
+//  @ File Name : Principal.java
+//  @ Date : 05/03/2023
+//  @ Author : Nicolle Gordillo  
+//
+//
 public class Principal {
     public static void main(String[] args) {
         lectura l=new lectura();

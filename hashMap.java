@@ -3,7 +3,14 @@ import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
-
+//
+//
+//  @ Project : HDT6
+//  @ File Name : hashMap.java
+//  @ Date : 05/03/2023
+//  @ Author : Nicolle Gordillo  
+//
+//
 public class hashMap implements IMap{
 
     HashMap<String, String> inventario = new HashMap<String, String>();
